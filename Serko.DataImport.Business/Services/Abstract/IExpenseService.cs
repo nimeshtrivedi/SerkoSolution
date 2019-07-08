@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Serko.DataImport.Entities;
+﻿using Serko.DataImport.Entities;
 
 namespace Serko.DataImport.Business.Services.Abstract
 {

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Xml.Linq;
-
-namespace Serko.DataImport.Business.Validators.Abstract
+﻿namespace Serko.DataImport.Business.Validators.Abstract
 {
     public interface IValidator
     {

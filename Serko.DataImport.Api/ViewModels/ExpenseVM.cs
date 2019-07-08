@@ -1,6 +1,4 @@
-﻿using System.Security.AccessControl;
-
-namespace Serko.DataImport.Api.ViewModels
+﻿namespace Serko.DataImport.Api.ViewModels
 {
     public class ExpenseVm
     {

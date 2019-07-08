@@ -27,12 +27,9 @@ namespace Serko.DataImport.Business.Services.Concrete
         {
 
             if(!_validators.Validate(text)) throw new Exception(_validators.Message);
-
             
             var xDocCollection = _extractor.Extract(text).ToList();
             
-          
-
             var expenseXml = xDocCollection.Descendants().FirstOrDefault(p => string.Equals( p.Name.LocalName, "Expense", StringComparison.OrdinalIgnoreCase));
             if (xDocCollection.Count == 0) throw new Exception("No XML found");
             if (expenseXml == null) throw new Exception("No expenses found");

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Serko.DataImport.Entities
+﻿namespace Serko.DataImport.Entities
 {
     public class Expense
     {
